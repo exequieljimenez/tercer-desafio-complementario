@@ -1,0 +1,27 @@
+.estiloPeliculas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: lightgray;
+}
+
+.card img {
+    max-height: 481px;
+    height: auto;
+}
